@@ -16,18 +16,28 @@ body{
     max-width: 90%;
 }
 .back{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     position: fixed;
-    bottom: 25px;
-    right: 25px;
+    bottom: 50px;
+    right: 50px;
     border-radius: 50%;
     background-color: white;
     box-shadow: 5px 5px 5px #bbbbbb;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
     font-weight: bold;
 }
 .back:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .back{
+        height: 50px;
+        width: 50px;
+        bottom: 15px;
+        right: 15px;
+        line-height: 50px;
+    }
 }
