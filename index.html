@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
     <link rel="stylesheet" href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script src="static/http_cdn.bootcss.com_jquery_1.10.2_jquery.js"></script>
     <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <style>
+        html{
+            width: 100%;
+            height: 100%;
+        }
         body{
             width: 100%;
             height: 100%;
             padding: 0;
             margin: 0;
             background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1527682555&di=3557ccae6d3f83bf3bfaa31aab028e29&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.zcool.com.cn%2Fcommunity%2F037d2ca5a45aa4ea80121974133b866.jpg') no-repeat;
-            background-size: cover;
+            background-size:100% 100%;
         }
         form{
             padding: 30px;
             margin-top: 20%;
+            border-radius: 5px;
             background-color: rgba(255, 255, 255, 0.9);
         }
         form h2{
@@ -28,7 +34,7 @@
 <body>
 <div class="container">
     <form class="form-horizontal col-md-8 col-md-offset-2" action="welcome.html">
-        <h2 class="text-center">Please Sign In</h2>
+        <h2 class="text-center">童话镇</h2>
         <div class="form-group form-group-lg">
             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
